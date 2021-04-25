@@ -1,7 +1,3 @@
-# Bucket List Project
-
-This is a project based on Next for a trabel agency startup
-
 ## Getting started
 
 - Clone the repository into your local machine
