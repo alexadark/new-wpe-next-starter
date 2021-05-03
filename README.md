@@ -73,3 +73,5 @@ https://hasura.io/blog/best-practices-of-using-jwt-with-graphql/
 -- To change Reset Email and New user email please go to this [Kellen Mace repo](https://github.com/kellenmace/run-through-history-backend) to learn how to do it.
 
 - I am creating a basic plugin for this also: https://github.com/carlosloureda/wbs-headless-auth-plugin
+
+-- How to fork privately: https://gist.github.com/0xjac/85097472043b697ab57ba1b1c7530274
