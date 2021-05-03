@@ -7,13 +7,13 @@ const Dashboard = () => {
 
   useEffect(() => {
     if (!isLoading && !isLoggedIn) {
-      Router.push('/auth/login');
+      Router.push('/login');
     }
   }, [isLoading, isLoggedIn]);
 
   const onLogout = () => {
     deleteAuthData();
-    Router.push('/auth/login');
+    Router.push('/login');
   };
 
   if (isLoading) {

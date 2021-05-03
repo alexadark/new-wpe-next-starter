@@ -64,7 +64,7 @@ const RegisterForm = ({ onSubmit, error }) => {
       <div>
         <p>
           Already registered?
-            <Link href="/auth/login">
+            <Link href="/login">
             <a>Login</a>
           </Link>
         </p>
