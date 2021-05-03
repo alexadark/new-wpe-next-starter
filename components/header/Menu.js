@@ -5,7 +5,6 @@ import Link from 'next/link';
 export const Menu = () => {
   const { primaryMenuData } = useGlobalData();
   const { nodes: items } = primaryMenuData?.data?.menu?.menuItems ?? [];
-  console.log("items: ", items)
   return (
     <nav className={clsx('hidden md:flex')}>
       {items?.map((item) => {
