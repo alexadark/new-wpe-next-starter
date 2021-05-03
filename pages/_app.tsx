@@ -15,7 +15,6 @@ import { getApolloClient } from '@wpengine/headless';
 const client = getApolloClient();
 client.cache = cache;
 client.setLink(link);
-console.log('cliente: ', client);
 
 /* eslint-disable react/jsx-props-no-spreading */
 export default function App({
@@ -29,9 +28,9 @@ export default function App({
       <HeadlessProvider pageProps={pageProps}>
         <AuthProvider>
           <ApolloProvider client={client}>
-            <Layout>
-              <Component {...pageProps} />
-            </Layout>
+            {/* <Layout> */}
+            <Component {...pageProps} />
+            {/* </Layout> */}
           </ApolloProvider>
         </AuthProvider>
       </HeadlessProvider>
