@@ -1,5 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
+import Link from "next/link";
+
 import { appGetStaticProps } from 'lib/appGetStaticProps';
 
 export const Home = () => {
@@ -11,7 +13,21 @@ export const Home = () => {
       </Head>
 
       <main>
-        <h1>Main</h1>
+        <h1>Index Example</h1>
+
+        <h2>Auth</h2>
+
+        <p>
+          <Link href="/register">
+            <a>Register user</a>
+          </Link>
+        </p>
+
+        <p>
+          <Link href="/dashboard">
+            <a>Private Dashboard</a>
+          </Link>
+        </p>
       </main>
     </div>
   );
