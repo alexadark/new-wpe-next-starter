@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <footer className="pb-10 bg-primary pt-14">
       <div className="container text-center">
-        @ {new Date().getFullYear()} My Prohject
+        @ {new Date().getFullYear()} Webstantly WP Headless
       </div>
     </footer>
   );

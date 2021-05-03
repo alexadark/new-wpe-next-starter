@@ -8,7 +8,7 @@ export const Home = () => {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Webstantly WP Headless Boilerplate</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -27,7 +27,11 @@ export const Home = () => {
             <a>Login user</a>
           </Link>
         </p>
-
+        <p>
+          <Link href="/forgot-password">
+            <a>Forgot password</a>
+          </Link>
+        </p>
         <p>
           <Link href="/dashboard">
             <a>Private Dashboard</a>
