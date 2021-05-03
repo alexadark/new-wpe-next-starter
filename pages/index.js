@@ -22,6 +22,11 @@ export const Home = () => {
             <a>Register user</a>
           </Link>
         </p>
+        <p>
+          <Link href="/login">
+            <a>Login user</a>
+          </Link>
+        </p>
 
         <p>
           <Link href="/dashboard">
